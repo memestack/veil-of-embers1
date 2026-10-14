@@ -1,0 +1,22 @@
+{
+  "name": "veu-de-brasas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VEIL OF EMBERS — dark-fantasy 2D top-down survivor-like (PixiJS 8 + TypeScript + Vite)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "node scripts/run-tests.mjs",
+    "assets": "python3 scripts/art/build_assets.py && python3 scripts/audio/build_audio.py"
+  },
+  "dependencies": {
+    "pixi.js": "^8.6.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vite": "^6.0.0"
+  }
+}
